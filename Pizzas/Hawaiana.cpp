@@ -4,6 +4,6 @@
 
 #include "Hawaiana.h"
 
-int Hawaiana::getIncluir_piña() const {
-    return incluir_piña;
+int Hawaiana::getIncluir_pina() const {
+    return incluir_pina;
 }

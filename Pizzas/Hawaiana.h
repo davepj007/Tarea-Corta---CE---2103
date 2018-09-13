@@ -10,9 +10,9 @@
 
 class Hawaiana : public Basica {
 private:
-    int incluir_piña=3;
+    int incluir_pina=3;
 public:
-    int getIncluir_piña() const;
+    int getIncluir_pina() const;
 
 public:
     void crear(){
@@ -21,7 +21,7 @@ public:
         getPicar_ingredientes();
         getMoldear_masa();
         getIncluir_ingredientes();
-        getIncluir_piña();
+        getIncluir_pina();
         getHornear();
         getEmpacar_y_llevar();
     }

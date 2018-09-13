@@ -4,7 +4,6 @@
 
 #include "GestorMemoria.h"
 #include "Memoria.h"
-#include "Proceso.h"
 
 #include <iostream>
 #include <string>

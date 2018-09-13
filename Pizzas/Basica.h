@@ -5,6 +5,7 @@
 #ifndef PIZZAS_PIZZA_H
 #define PIZZAS_PIZZA_H
 
+#include "../GestorMemoria/GestorMemoria.h"
 
 class Basica {
 private:
