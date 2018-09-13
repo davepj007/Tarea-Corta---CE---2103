@@ -50,54 +50,54 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/pizzas
+CMAKE_SOURCE_DIR = /home/davepj007/CLionProjects/Tarea-Corta---CE---2103
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/CLionProjects/pizzas/cmake-build-debug
+CMAKE_BINARY_DIR = /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/pizzas.dir
+# Target rules for target CMakeFiles/Tarea-Corta---CE---2103.dir
 
 # All Build rule for target.
-CMakeFiles/pizzas.dir/all:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/depend
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target pizzas"
-.PHONY : CMakeFiles/pizzas.dir/all
+CMakeFiles/Tarea-Corta---CE---2103.dir/all:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/depend
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Tarea-Corta---CE---2103"
+.PHONY : CMakeFiles/Tarea-Corta---CE---2103.dir/all
 
 # Include target in all.
-all: CMakeFiles/pizzas.dir/all
+all: CMakeFiles/Tarea-Corta---CE---2103.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pizzas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pizzas.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pizzas.dir/rule
+CMakeFiles/Tarea-Corta---CE---2103.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Tarea-Corta---CE---2103.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Tarea-Corta---CE---2103.dir/rule
 
 # Convenience name for target.
-pizzas: CMakeFiles/pizzas.dir/rule
+Tarea-Corta---CE---2103: CMakeFiles/Tarea-Corta---CE---2103.dir/rule
 
-.PHONY : pizzas
-
-# clean rule for target.
-CMakeFiles/pizzas.dir/clean:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/clean
-.PHONY : CMakeFiles/pizzas.dir/clean
+.PHONY : Tarea-Corta---CE---2103
 
 # clean rule for target.
-clean: CMakeFiles/pizzas.dir/clean
+CMakeFiles/Tarea-Corta---CE---2103.dir/clean:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/clean
+.PHONY : CMakeFiles/Tarea-Corta---CE---2103.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Tarea-Corta---CE---2103.dir/clean
 
 .PHONY : clean
 

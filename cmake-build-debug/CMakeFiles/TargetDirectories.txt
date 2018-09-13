@@ -1,3 +1,3 @@
-/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir
+/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/Tarea-Corta---CE---2103.dir

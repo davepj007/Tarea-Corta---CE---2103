@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/pizzas
+CMAKE_SOURCE_DIR = /home/davepj007/CLionProjects/Tarea-Corta---CE---2103
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/CLionProjects/pizzas/cmake-build-debug
+CMAKE_BINARY_DIR = /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/pablo/CLionProjects/pizzas/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/pablo/Descargas/clion-2018.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/davepj007/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles /home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,152 +111,233 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pizzas
+# Target rules for targets named Tarea-Corta---CE---2103
 
 # Build rule for target.
-pizzas: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pizzas
-.PHONY : pizzas
+Tarea-Corta---CE---2103: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Tarea-Corta---CE---2103
+.PHONY : Tarea-Corta---CE---2103
 
 # fast build rule for target.
-pizzas/fast:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/build
-.PHONY : pizzas/fast
+Tarea-Corta---CE---2103/fast:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/build
+.PHONY : Tarea-Corta---CE---2103/fast
 
-Basica.o: Basica.cpp.o
+GestorMemoria/GestorMemoria.o: GestorMemoria/GestorMemoria.cpp.o
 
-.PHONY : Basica.o
-
-# target to build an object file
-Basica.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Basica.cpp.o
-.PHONY : Basica.cpp.o
-
-Basica.i: Basica.cpp.i
-
-.PHONY : Basica.i
-
-# target to preprocess a source file
-Basica.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Basica.cpp.i
-.PHONY : Basica.cpp.i
-
-Basica.s: Basica.cpp.s
-
-.PHONY : Basica.s
-
-# target to generate assembly for a file
-Basica.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Basica.cpp.s
-.PHONY : Basica.cpp.s
-
-BordeQueso.o: BordeQueso.cpp.o
-
-.PHONY : BordeQueso.o
+.PHONY : GestorMemoria/GestorMemoria.o
 
 # target to build an object file
-BordeQueso.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/BordeQueso.cpp.o
-.PHONY : BordeQueso.cpp.o
+GestorMemoria/GestorMemoria.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/GestorMemoria.cpp.o
+.PHONY : GestorMemoria/GestorMemoria.cpp.o
 
-BordeQueso.i: BordeQueso.cpp.i
+GestorMemoria/GestorMemoria.i: GestorMemoria/GestorMemoria.cpp.i
 
-.PHONY : BordeQueso.i
+.PHONY : GestorMemoria/GestorMemoria.i
 
 # target to preprocess a source file
-BordeQueso.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/BordeQueso.cpp.i
-.PHONY : BordeQueso.cpp.i
+GestorMemoria/GestorMemoria.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/GestorMemoria.cpp.i
+.PHONY : GestorMemoria/GestorMemoria.cpp.i
 
-BordeQueso.s: BordeQueso.cpp.s
+GestorMemoria/GestorMemoria.s: GestorMemoria/GestorMemoria.cpp.s
 
-.PHONY : BordeQueso.s
+.PHONY : GestorMemoria/GestorMemoria.s
 
 # target to generate assembly for a file
-BordeQueso.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/BordeQueso.cpp.s
-.PHONY : BordeQueso.cpp.s
+GestorMemoria/GestorMemoria.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/GestorMemoria.cpp.s
+.PHONY : GestorMemoria/GestorMemoria.cpp.s
 
-Hawaiana.o: Hawaiana.cpp.o
+GestorMemoria/Memoria.o: GestorMemoria/Memoria.cpp.o
 
-.PHONY : Hawaiana.o
+.PHONY : GestorMemoria/Memoria.o
 
 # target to build an object file
-Hawaiana.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Hawaiana.cpp.o
-.PHONY : Hawaiana.cpp.o
+GestorMemoria/Memoria.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Memoria.cpp.o
+.PHONY : GestorMemoria/Memoria.cpp.o
 
-Hawaiana.i: Hawaiana.cpp.i
+GestorMemoria/Memoria.i: GestorMemoria/Memoria.cpp.i
 
-.PHONY : Hawaiana.i
+.PHONY : GestorMemoria/Memoria.i
 
 # target to preprocess a source file
-Hawaiana.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Hawaiana.cpp.i
-.PHONY : Hawaiana.cpp.i
+GestorMemoria/Memoria.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Memoria.cpp.i
+.PHONY : GestorMemoria/Memoria.cpp.i
 
-Hawaiana.s: Hawaiana.cpp.s
+GestorMemoria/Memoria.s: GestorMemoria/Memoria.cpp.s
 
-.PHONY : Hawaiana.s
+.PHONY : GestorMemoria/Memoria.s
 
 # target to generate assembly for a file
-Hawaiana.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Hawaiana.cpp.s
-.PHONY : Hawaiana.cpp.s
+GestorMemoria/Memoria.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Memoria.cpp.s
+.PHONY : GestorMemoria/Memoria.cpp.s
 
-Suprema.o: Suprema.cpp.o
+GestorMemoria/Pagina.o: GestorMemoria/Pagina.cpp.o
 
-.PHONY : Suprema.o
+.PHONY : GestorMemoria/Pagina.o
 
 # target to build an object file
-Suprema.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Suprema.cpp.o
-.PHONY : Suprema.cpp.o
+GestorMemoria/Pagina.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Pagina.cpp.o
+.PHONY : GestorMemoria/Pagina.cpp.o
 
-Suprema.i: Suprema.cpp.i
+GestorMemoria/Pagina.i: GestorMemoria/Pagina.cpp.i
 
-.PHONY : Suprema.i
+.PHONY : GestorMemoria/Pagina.i
 
 # target to preprocess a source file
-Suprema.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Suprema.cpp.i
-.PHONY : Suprema.cpp.i
+GestorMemoria/Pagina.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Pagina.cpp.i
+.PHONY : GestorMemoria/Pagina.cpp.i
 
-Suprema.s: Suprema.cpp.s
+GestorMemoria/Pagina.s: GestorMemoria/Pagina.cpp.s
 
-.PHONY : Suprema.s
+.PHONY : GestorMemoria/Pagina.s
 
 # target to generate assembly for a file
-Suprema.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Suprema.cpp.s
-.PHONY : Suprema.cpp.s
+GestorMemoria/Pagina.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/GestorMemoria/Pagina.cpp.s
+.PHONY : GestorMemoria/Pagina.cpp.s
 
-Vegetariana.o: Vegetariana.cpp.o
+Pizzas/Basica.o: Pizzas/Basica.cpp.o
 
-.PHONY : Vegetariana.o
+.PHONY : Pizzas/Basica.o
 
 # target to build an object file
-Vegetariana.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Vegetariana.cpp.o
-.PHONY : Vegetariana.cpp.o
+Pizzas/Basica.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Basica.cpp.o
+.PHONY : Pizzas/Basica.cpp.o
 
-Vegetariana.i: Vegetariana.cpp.i
+Pizzas/Basica.i: Pizzas/Basica.cpp.i
 
-.PHONY : Vegetariana.i
+.PHONY : Pizzas/Basica.i
 
 # target to preprocess a source file
-Vegetariana.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Vegetariana.cpp.i
-.PHONY : Vegetariana.cpp.i
+Pizzas/Basica.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Basica.cpp.i
+.PHONY : Pizzas/Basica.cpp.i
 
-Vegetariana.s: Vegetariana.cpp.s
+Pizzas/Basica.s: Pizzas/Basica.cpp.s
 
-.PHONY : Vegetariana.s
+.PHONY : Pizzas/Basica.s
 
 # target to generate assembly for a file
-Vegetariana.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/Vegetariana.cpp.s
-.PHONY : Vegetariana.cpp.s
+Pizzas/Basica.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Basica.cpp.s
+.PHONY : Pizzas/Basica.cpp.s
+
+Pizzas/BordeQueso.o: Pizzas/BordeQueso.cpp.o
+
+.PHONY : Pizzas/BordeQueso.o
+
+# target to build an object file
+Pizzas/BordeQueso.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/BordeQueso.cpp.o
+.PHONY : Pizzas/BordeQueso.cpp.o
+
+Pizzas/BordeQueso.i: Pizzas/BordeQueso.cpp.i
+
+.PHONY : Pizzas/BordeQueso.i
+
+# target to preprocess a source file
+Pizzas/BordeQueso.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/BordeQueso.cpp.i
+.PHONY : Pizzas/BordeQueso.cpp.i
+
+Pizzas/BordeQueso.s: Pizzas/BordeQueso.cpp.s
+
+.PHONY : Pizzas/BordeQueso.s
+
+# target to generate assembly for a file
+Pizzas/BordeQueso.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/BordeQueso.cpp.s
+.PHONY : Pizzas/BordeQueso.cpp.s
+
+Pizzas/Hawaiana.o: Pizzas/Hawaiana.cpp.o
+
+.PHONY : Pizzas/Hawaiana.o
+
+# target to build an object file
+Pizzas/Hawaiana.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Hawaiana.cpp.o
+.PHONY : Pizzas/Hawaiana.cpp.o
+
+Pizzas/Hawaiana.i: Pizzas/Hawaiana.cpp.i
+
+.PHONY : Pizzas/Hawaiana.i
+
+# target to preprocess a source file
+Pizzas/Hawaiana.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Hawaiana.cpp.i
+.PHONY : Pizzas/Hawaiana.cpp.i
+
+Pizzas/Hawaiana.s: Pizzas/Hawaiana.cpp.s
+
+.PHONY : Pizzas/Hawaiana.s
+
+# target to generate assembly for a file
+Pizzas/Hawaiana.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Hawaiana.cpp.s
+.PHONY : Pizzas/Hawaiana.cpp.s
+
+Pizzas/Suprema.o: Pizzas/Suprema.cpp.o
+
+.PHONY : Pizzas/Suprema.o
+
+# target to build an object file
+Pizzas/Suprema.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Suprema.cpp.o
+.PHONY : Pizzas/Suprema.cpp.o
+
+Pizzas/Suprema.i: Pizzas/Suprema.cpp.i
+
+.PHONY : Pizzas/Suprema.i
+
+# target to preprocess a source file
+Pizzas/Suprema.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Suprema.cpp.i
+.PHONY : Pizzas/Suprema.cpp.i
+
+Pizzas/Suprema.s: Pizzas/Suprema.cpp.s
+
+.PHONY : Pizzas/Suprema.s
+
+# target to generate assembly for a file
+Pizzas/Suprema.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Suprema.cpp.s
+.PHONY : Pizzas/Suprema.cpp.s
+
+Pizzas/Vegetariana.o: Pizzas/Vegetariana.cpp.o
+
+.PHONY : Pizzas/Vegetariana.o
+
+# target to build an object file
+Pizzas/Vegetariana.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Vegetariana.cpp.o
+.PHONY : Pizzas/Vegetariana.cpp.o
+
+Pizzas/Vegetariana.i: Pizzas/Vegetariana.cpp.i
+
+.PHONY : Pizzas/Vegetariana.i
+
+# target to preprocess a source file
+Pizzas/Vegetariana.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Vegetariana.cpp.i
+.PHONY : Pizzas/Vegetariana.cpp.i
+
+Pizzas/Vegetariana.s: Pizzas/Vegetariana.cpp.s
+
+.PHONY : Pizzas/Vegetariana.s
+
+# target to generate assembly for a file
+Pizzas/Vegetariana.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/Pizzas/Vegetariana.cpp.s
+.PHONY : Pizzas/Vegetariana.cpp.s
 
 main.o: main.cpp.o
 
@@ -264,7 +345,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -273,7 +354,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -282,7 +363,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/pizzas.dir/build.make CMakeFiles/pizzas.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Tarea-Corta---CE---2103.dir/build.make CMakeFiles/Tarea-Corta---CE---2103.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -293,22 +374,31 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... pizzas"
-	@echo "... Basica.o"
-	@echo "... Basica.i"
-	@echo "... Basica.s"
-	@echo "... BordeQueso.o"
-	@echo "... BordeQueso.i"
-	@echo "... BordeQueso.s"
-	@echo "... Hawaiana.o"
-	@echo "... Hawaiana.i"
-	@echo "... Hawaiana.s"
-	@echo "... Suprema.o"
-	@echo "... Suprema.i"
-	@echo "... Suprema.s"
-	@echo "... Vegetariana.o"
-	@echo "... Vegetariana.i"
-	@echo "... Vegetariana.s"
+	@echo "... Tarea-Corta---CE---2103"
+	@echo "... GestorMemoria/GestorMemoria.o"
+	@echo "... GestorMemoria/GestorMemoria.i"
+	@echo "... GestorMemoria/GestorMemoria.s"
+	@echo "... GestorMemoria/Memoria.o"
+	@echo "... GestorMemoria/Memoria.i"
+	@echo "... GestorMemoria/Memoria.s"
+	@echo "... GestorMemoria/Pagina.o"
+	@echo "... GestorMemoria/Pagina.i"
+	@echo "... GestorMemoria/Pagina.s"
+	@echo "... Pizzas/Basica.o"
+	@echo "... Pizzas/Basica.i"
+	@echo "... Pizzas/Basica.s"
+	@echo "... Pizzas/BordeQueso.o"
+	@echo "... Pizzas/BordeQueso.i"
+	@echo "... Pizzas/BordeQueso.s"
+	@echo "... Pizzas/Hawaiana.o"
+	@echo "... Pizzas/Hawaiana.i"
+	@echo "... Pizzas/Hawaiana.s"
+	@echo "... Pizzas/Suprema.o"
+	@echo "... Pizzas/Suprema.i"
+	@echo "... Pizzas/Suprema.s"
+	@echo "... Pizzas/Vegetariana.o"
+	@echo "... Pizzas/Vegetariana.i"
+	@echo "... Pizzas/Vegetariana.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

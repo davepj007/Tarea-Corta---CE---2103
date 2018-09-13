@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pablo/CLionProjects/pizzas/Basica.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/Basica.cpp.o"
-  "/home/pablo/CLionProjects/pizzas/BordeQueso.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/BordeQueso.cpp.o"
-  "/home/pablo/CLionProjects/pizzas/Hawaiana.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/Hawaiana.cpp.o"
-  "/home/pablo/CLionProjects/pizzas/Suprema.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/Suprema.cpp.o"
-  "/home/pablo/CLionProjects/pizzas/Vegetariana.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/Vegetariana.cpp.o"
-  "/home/pablo/CLionProjects/pizzas/main.cpp" "/home/pablo/CLionProjects/pizzas/cmake-build-debug/CMakeFiles/pizzas.dir/main.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/Pizzas/Basica.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/Pizzas/Basica.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/Pizzas/BordeQueso.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/Pizzas/BordeQueso.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/Pizzas/Hawaiana.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/Pizzas/Hawaiana.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/Pizzas/Suprema.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/Pizzas/Suprema.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/Pizzas/Vegetariana.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/Pizzas/Vegetariana.cpp.o"
+  "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/main.cpp" "/home/davepj007/CLionProjects/Tarea-Corta---CE---2103/cmake-build-debug/CMakeFiles/pizzas.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
